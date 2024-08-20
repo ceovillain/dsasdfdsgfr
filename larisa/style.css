@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 70px;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    z-index: 9999;
+
+}
+
+header > img {
+    height: 100%
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    background-image: url(https://wallpaperboat.com/wp-content/uploads/2019/10/free-website-background-07.jpg);
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+main > div > img {
+    height: 600px;
+    width: 700px;
+}
+
+main > div {
+    padding-top: 100px;
+}
+
+section {
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    gap: 20px;
+}
+
+section > div {
+background-color: black;
+position: relative;
+}
+
+section > div > img {
+    height: 100vh;
+    width: 100%;
+    
+    
+
+} 
+ 
+
+section > div > h1 {
+    text-align: center;
+    color: rgb(255, 0, 0);
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    border: 1px solid burlywood;
+    background-color: burlywood;
+    border-radius: 20px;
+    padding: 10px;
+}
